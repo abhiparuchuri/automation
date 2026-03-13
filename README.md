@@ -1,3 +1,5 @@
+(copy and paste js code to google scripts) - abhi
+
 # Google Sheets → Gmail Email Scheduler
 
 Sends semi-personalized outreach emails from Gmail based on a Google Sheet. Scrapes role names from job links, fills a template, and sends when `send_at` is due.
