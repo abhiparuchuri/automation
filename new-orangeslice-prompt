@@ -1,0 +1,33 @@
+Prompt 1:
+
+Create a table that will be later used to find US-based companies with ~50-500 employees that are actively hiring for roles mentioning "AI", "ChatGPT", "Claude", "Gemini", "LLM", or "prompt engineering". They should have posted at least 2 such roles 
+in the last 30 days. Just create the table with the columns right now (don't fill any rows)
+
+For each company, return one row with these columns:
+
+Company name
+Company website
+Employee count
+Example AI-related job posting URL
+
+Tier 1 - Recruiter/TA Lead: name, title, LinkedIn URL, work email
+Tier 1 - Hiring Manager (engineering manager, director of engineering, 
+  or head of data science who owns AI/ML hiring): name, title, 
+  LinkedIn URL, work email
+
+Tier 2 - VP of People / CHRO / most senior HR executive: name, title, 
+  LinkedIn URL, work email
+Tier 2 - Head of People Ops / Director of Recruiting / second most 
+  senior HR or TA leader: name, title, LinkedIn URL, work email
+Tier 2 - Head of AI / AI Integration Manager / AI-focused leadership 
+  (leave blank if none): name, title, LinkedIn URL, work email
+
+------------
+
+Prompt 2:
+find me 30 US-based companies with ~50-500 employees that are actively hiring for Data/Business/Technical roles mentioning "AI", "ChatGPT", "Claude", "Gemini", "LLM", or "prompt engineering". They should have posted at least 2 such roles in the last table. do not enrich any of the data
+
+------------
+
+Prompt 3:
+enrich the data in the current sheet to pull each person's email
